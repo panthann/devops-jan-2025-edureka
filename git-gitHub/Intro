@@ -1,0 +1,14 @@
+gitHub --> Online (Centralized) Code Repository
+git --> version control system (VCS)
+
+why VCS?
+1. To track changes --> who committed the changes, and when the commit was done, what was the change?
+2. To retrieve files from accidental deletes
+
+2 types of VCS:
+Centralised VCS --> svn
+Distributed VCS --> git
+
+2 drawbacks of centralized VCS
+1. internet connection all the time
+2. multiple developers cann't work on same file simultaneously
