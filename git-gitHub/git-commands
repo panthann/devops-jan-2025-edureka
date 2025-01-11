@@ -1,0 +1,43 @@
+1  apt update -y
+    2  clear
+    3  git version
+    4  git clone https://github.com/raushan8586/repo-demo.git
+    5  ls -l
+    6  cd repo-demo/
+    7  ls -l
+    8  git branch
+    9  git checkout master
+   10  ls -l
+   11  pwd
+   12  ls -la
+   13  cd ..
+   14  mkdir project1
+   15  cd project1/
+   16  ls -la
+   17  git init
+   18  ls -la
+   19  cd ../repo-demo/
+   20  pwd
+   21  ls -l
+   22  vi thanos
+   23  ls -l
+   24  ls -la
+   25  cd ../project1/
+   26  ls -la
+   27  git status
+   28  ls -l
+   29  cd ..
+   30  ls -l
+   31  cd project1/
+   32  git branch
+   33  git status
+   34  vi sample1
+   35  ls -l
+   36  cd ..
+   37  ls -l
+   38  cd repo-demo/
+   39  ls -la
+   40  git branch
+   41  git remote -v
+   42  cd ../project1/
+   43  git remote -v
