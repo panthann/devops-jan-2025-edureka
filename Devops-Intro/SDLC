@@ -1,1 +1,15 @@
 SDLC --> Software Development Lifecycle
+
+Problem Statement
+Requirements Gathering
+Plan & Design
+Coding
+Build
+Deploy the code to QA env
+Quality Validations --> Funtional Testing, Peformance Testing, Security Testing, User Acceptance Testing
+Deploy the code to Prod
+Monitor
+Feedback
+
+SDLC Models
+1. Waterfall
