@@ -1,0 +1,23 @@
+Cloud --> Edureka youtube playlist
+
+Linux --> Edureka youtube playlist
+
+date
+time
+uptime
+cd --> change directory
+/ --> root
+ls --> list all the files/directories
+ls -lrt --> list all the files/directories by time
+mkdir --> crete a directory
+touch --> create a file
+vi --> i --> edit the file --> esc (exit insert mode) --> :wq!
+clear --> clear the screen
+cat --> read a file
+rmdir
+rm
+chmod --> permissions
+
+Linux distributions:
+CentOS - Amazon Linux, Redhat, Fedora - yum is the default package manager
+Debian - Ubuntu - apt is the default package manager
