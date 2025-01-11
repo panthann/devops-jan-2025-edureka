@@ -3,7 +3,7 @@ SDLC --> Software Development Lifecycle
 Problem Statement
 Requirements Gathering
 Plan & Design
-Coding
+Coding --> developers have pushed the code to gitHub
 Build
 Deploy the code to QA env
 Quality Validations --> Funtional Testing, Peformance Testing, Security Testing, User Acceptance Testing
@@ -13,3 +13,8 @@ Feedback
 
 SDLC Models
 1. Waterfall
+2. Agile
+3. DevOps --> SDLC Process Automation to increase release velocity
+          --> Focuses on better collaboration between development and operations team
+
+Dev Ops
