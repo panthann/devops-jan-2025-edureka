@@ -12,3 +12,8 @@ Distributed VCS --> git
 2 drawbacks of centralized VCS
 1. internet connection all the time
 2. multiple developers cann't work on same file simultaneously
+
+-----------------------------------------------------------------------------------------------------
+Folder is being tracked by git or not? -->
+ls -la --> .git directory should be present
+git status --> get putput
