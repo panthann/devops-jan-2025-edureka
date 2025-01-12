@@ -1,4 +1,5 @@
-1  apt update -y
+11th Jan 2025--> 
+apt update -y
     2  clear
     3  git version
     4  git clone https://github.com/raushan8586/repo-demo.git
@@ -41,3 +42,55 @@
    41  git remote -v
    42  cd ../project1/
    43  git remote -v
+
+12th Jan-->
+
+45  ls -l
+   46  cd repo-demo/
+   47  ls -l
+   48  git status
+   49  ls -la
+   50  pwd
+   51  git branch
+   52  git checkout b1
+   53  git checkout b2
+   54  git branch
+   55  git checkout b3
+   56  cd ..
+   57  ls -l
+   58  cd project1/
+   59  git status
+   60  ls -la
+   61  cat sample1 
+   62  pwd
+   63  ls -l
+   64  git status
+   65  git add sample1 
+   66  git status
+   67  git log
+   68  git commit -m "app1-1st-commit"
+   69  git log
+   70  git config --global user.email "raushan8586.kumar@gmail.com"
+   71  git config --global user.name "Raushan Kumar"
+   72  vi sample2
+   73  git status
+   74  git add sample2
+   75  git status
+   76  git commit -m "app1-2nd-commit"
+   77  git log
+   78  git show 1d0d
+   79  git branch
+   80  git status
+   81  cd ../repo-demo/
+   82  git remote -v
+   83  cd ../project1/
+   84  git remote -v
+   85  git remote add origin https://github.com/raushan8586/app1-project1-edureka.git
+   86  git log
+   87  git push origin master
+   88  git log
+   89  git branch b1 master
+   90  git branch
+   91  git checkout b1
+   92  git log
+   93  git push origin b1
