@@ -17,3 +17,6 @@ Distributed VCS --> git
 Folder is being tracked by git or not? -->
 ls -la --> .git directory should be present
 git status --> get putput
+
+ls -l --> WD
+git ls-files --> LR
