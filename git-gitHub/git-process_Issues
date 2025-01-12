@@ -1,6 +1,5 @@
-git merge <source_branch> <destination_branch>
 
-d1, b1
+** GOLDEN STEPS **
 
 1. git checkout master --> git pull origin master
 2. git checkout b1 --> git rebase master
