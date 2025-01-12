@@ -94,3 +94,61 @@ apt update -y
    91  git checkout b1
    92  git log
    93  git push origin b1
+95  git branch
+   96  git checkout master
+   97  git pull origin master
+   98  git log --oneline
+   99  git checkout b1
+  100  git rebase master
+  101  git log --oneline
+  102  vi b1-file1
+  103  git add .
+  104  git commit -m "b1-1st-commit"
+  105  git push origin b1
+  106  ls -l
+  107  cd ..
+  108  ls -l
+  109  cd project1
+  110  ls -l
+  111  git checkout -b b3 master
+  112  git branch
+  113  ls -l
+  114  vi app1.log
+  115  vi sample4
+  116  git status
+  117  vi .gitignore
+  118  git status
+  119  git add .
+  120  git commit -m "sample4-added"
+  121  git status
+  122  ls -l
+  123  vi app1.log 
+  124  git stauts
+  125  git status
+  126  ls -la
+  127  cat .gitignore
+  128  git push origin b3
+  129  git log --oneline
+  130  vi sample5
+  131  git add .
+  132  git commit -m "sample5-added"
+  133  git log --oneline
+  134  ls -l
+  135  git ls-files
+  136  git show c63e7af
+  137  git revert c63e7af
+  138  git log --oneline
+  139  git show c2c39b0
+  140  ls -l
+  141  git log --oneline
+  142  git reset --hard 6d11a3d
+  143  git log --oneline
+  144  git status
+  145  ls -l
+  146  rm sample4
+  147  ls -l
+  148  git ls-files
+  149  git status
+  150  git restore sample4
+  151  ls -l
+  152  git status
