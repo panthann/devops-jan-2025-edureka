@@ -152,3 +152,21 @@ apt update -y
   150  git restore sample4
   151  ls -l
   152  git status
+
+162  git stash list
+  163  git stash
+  164  git status
+  165  git stash list
+  166  git show stash@{0}
+  167  git stash pop stash@{0}
+  168  git status
+  169  git stash list
+  170  git stash -p
+  171  git status
+  172  git stash list
+  173  git restore sample4
+  174  git status
+  175  git stash list
+  176  git stash pop stash@{0}
+  177  git status
+  178  git restore sample3
