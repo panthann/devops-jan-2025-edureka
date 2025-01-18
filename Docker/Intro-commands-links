@@ -9,6 +9,9 @@ apt install apache2 -y
 
 
 apt intall docker.io -y
+
+lsof -i -P -n | grep LISTEN
+
 docker version
 docker info
 
