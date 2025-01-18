@@ -19,3 +19,14 @@ docker pull tomcat
 docker run -itd -p 82:80 httpd --> to create container from httpd image
 docker ps
 docker exec -it <container-id> /bin/bash --> to inside the container
+
+docker images
+  155  docker network ls
+  156  docker inspect httpd
+  157  clear
+  158  docker run -itd -p 82:80 httpd
+  159  docker ps
+  160  cd /var/www/html/
+  161  ls -l
+  162  docker ps
+  163  docker exec -it 58797d520c8e /bin/bash
