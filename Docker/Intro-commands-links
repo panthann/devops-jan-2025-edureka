@@ -1,0 +1,21 @@
+Docker --> Container Engine
+
+
+
+sudo su -
+apt update -y
+apt install apache2 -y
+
+
+
+apt intall docker.io -y
+docker version
+docker info
+
+docker pull httpd
+docker pull tomcat
+
+
+docker run -itd -p 82:80 httpd --> to create container from httpd image
+docker ps
+docker exec -it <container-id> /bin/bash --> to inside the container
