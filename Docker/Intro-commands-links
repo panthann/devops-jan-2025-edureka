@@ -1,3 +1,15 @@
+Links:
+https://hub.docker.com/
+https://docs.docker.com/
+
+https://jenkov.com/tutorials/docker/dockerfile.html#maintainer
+https://github.com/komljen/dockerfile-examples
+
+https://docs.docker.com/reference/dockerfile/
+
+
+
+
 Docker --> Container Engine
 
 
@@ -33,3 +45,11 @@ docker images
   161  ls -l
   162  docker ps
   163  docker exec -it 58797d520c8e /bin/bash
+
+
+docker images --> httpd, MySQL --> hub.docker.com
+
+Dockerfile --> is used to create the custom image
+1. create a container, customize it --> docker commit <container-id> new-image
+2. Dockerfile --> docker build <dockerfile-location> -t new-image
+docker run -itd <container-image>
